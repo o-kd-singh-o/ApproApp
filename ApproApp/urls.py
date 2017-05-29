@@ -12,7 +12,7 @@ from ApproApp.Core import views as Core_views
 
 urlpatterns = [
     # Examples:
-     url(r'^$', Core.views.home, name='home'),
+     url(r'^$', Core_views.home, name='home'),
     # url(r'^ApproApp/', include('ApproApp.ApproApp.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
