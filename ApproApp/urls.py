@@ -10,7 +10,7 @@ from django.conf.urls import include, url
 
 urlpatterns = [
     # Examples:
-     url(r'^$', ApproApp.views.home, name='home'),
+     url(r'^$', Core.views.home, name='home'),
     # url(r'^ApproApp/', include('ApproApp.ApproApp.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
