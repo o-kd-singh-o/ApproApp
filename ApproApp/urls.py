@@ -5,7 +5,7 @@ Definition of urls for ApproApp.
 from django.conf.urls import include, url
 
 
-from ApproApp.Core import views as Core.views
+from ApproApp.Core import views as Core_views
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 # admin.autodiscover()
