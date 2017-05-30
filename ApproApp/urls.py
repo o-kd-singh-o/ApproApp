@@ -7,8 +7,8 @@ from django.conf.urls import include, url
 
 from ApproApp.Core import views as Core_views
 # Uncomment the next two lines to enable the admin:
-# from django.contrib import admin
-# admin.autodiscover()
+ from django.contrib import admin
+ admin.autodiscover()
 
 urlpatterns = [
     # Examples:
